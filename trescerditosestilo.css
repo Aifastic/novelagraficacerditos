@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Notable&display=swap');
+
+body {
+	background-image: url("img/fondo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+header {
+	background-image: url("img/bricks2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: scroll;
+	font-family: "Notable", sans-serif;
+	color:rgb(49, 0, 0);
+}
+
+section {
+	background-color: rgba(225, 255, 231, 0.596);
+	font-family: "Delius", cursive;
+	color:rgb(42, 63, 32)
+	gap: 60px;
+	padding: 30px;
+}
+
+aside {
+	background-color: rgba(91, 161, 77, 0.815);
+	border-radius: 10px;
+	padding: 5px;
+}
+
+#miModal {
+	background-image: url('img/fondomodal.jpg');
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
